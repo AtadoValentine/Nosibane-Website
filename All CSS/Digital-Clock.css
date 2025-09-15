@@ -1,0 +1,221 @@
+    .main-main {
+    display: flex;
+    flex-direction: row;
+    width: 1300px;
+    justify-content: space-between;
+    height: 500px;
+    align-items: center;
+    }
+
+    .time-main {
+    display: grid;
+    width: 200px;
+    }
+
+    .time {
+    margin-left: 33px;
+    margin-bottom: 50px;
+    font-size: 35px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    }
+
+    .clock-container {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 35px;
+    margin-top: 0px;
+    margin-left: 17px;
+    }
+
+    .am-pm-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 150px;
+    height: 50px;
+    align-items: center;
+    column-gap: 5px;
+    margin-left: 10px;
+    }
+
+    .am {
+    background-color: green;
+    opacity: 0;
+    width: 70px;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: black;
+    border-radius: 20%;
+    text-shadow: 0 0 5px black;
+    }
+
+    .pm {
+    background-color: green;
+    opacity: 0;
+    width: 70px;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: black;
+    border-radius: 20%;
+    text-shadow: 0 0 5px black;
+    }
+
+    .is-editing-message .am{
+    opacity: 1;
+    }
+
+    .is-editing-message .pm {
+    opacity: 1;
+    }
+
+    .alarm-main {
+    display: grid;
+    width: 530px; 
+    }
+
+    .option-container{
+    margin-left: 0px;
+    display: grid;
+    column-gap: 5px;
+    grid-template-columns: 150px 150px 100px 110px;
+    align-items: center;
+    }
+
+    .alarm-container {
+    margin-left: 8px;
+    display: grid;
+    grid-template-columns: 200px 200px 100px;
+    column-gap: 5px;
+    align-items: center;
+    margin-top: 10px;
+    }
+
+    .alarm {
+    margin-left: 170px;
+    margin-bottom: 140px;
+    font-size: 45px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    }
+
+    .time-alarm {
+    height: 28px;
+    border-width: 0.5px;
+    border-radius: 5px;
+    width: 147px;
+    }
+
+    .title-alarm {
+    height: 28px;
+    border-width: 0.5px;
+    border-radius: 5px;
+    width: 147px;
+    }
+
+    .set {
+    background-color: green;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bolder;
+    width: 102px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    font-size: 15px;
+    }
+
+    .stop {
+    background-color: green;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    font-size: 15px;    
+    }
+
+    .delete-button {
+    background-color: red;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    font-size: 15px;
+    }
+
+    .stop-clock-main {
+    display: grid;
+    grid-template-rows: 100px 100px 100px;
+    width: 300px;
+    }
+
+    .stop-clock {
+    margin-left: 0px;
+    margin-top: 60px;
+    font-size: 45px;
+    margin-bottom: 0px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    }
+
+    .stop-clock-container {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    margin-left: 80px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    font-size: 35px;
+    }
+
+    .stop-clock-button-container {
+    margin-left: 15px;
+    display: grid;
+    grid-template-columns: 80px 80px 80px;
+    column-gap: 10px;
+    row-gap: 10px;
+    align-items: center;
+    margin-top: 40px;
+    height: 50px;
+    }
+
+
+    .start-button {
+    background-color: green;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    font-size: 15px;
+    }
+
+    .stop-button {
+    background-color: green;
+    border: none;
+    height: 40px;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    font-size: 15px;
+    }
+
+    .reset-button {
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    font-size: 15px;
+    }
+
+
